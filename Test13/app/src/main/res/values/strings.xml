@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test13</string>
+    <string name="input">请输入内容</string>
+    <string name="btn_action">提交</string>
+</resources>

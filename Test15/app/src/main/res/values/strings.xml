@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test15</string>
+    <string name="edit_input_name">请输入名字...</string>
+    <string name="edit_input_phone_number">请输入手机号...</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_update">更新</string>
+    <string name="btn_query">查询</string>
+</resources>

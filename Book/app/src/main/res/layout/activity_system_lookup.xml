@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="查找书籍"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/activity_system_lookup_ed_book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入书籍名称查找" />
+
+    <EditText
+        android:id="@+id/activity_system_lookup_ed_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入作者进行查找" />
+
+    <EditText
+        android:id="@+id/activity_system_lookup_ed_ISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入ISBN进行查找" />
+
+    <EditText
+        android:id="@+id/activity_system_lookup_ed_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入出版日期进行查找"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/activity_system_lookup_btn_lookup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="handleClick"
+        android:background="@drawable/btn_bg"
+        android:text="查找" />
+
+
+    <ListView
+        android:id="@+id/activity_system_lookup_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

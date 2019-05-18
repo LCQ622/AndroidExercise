@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test12</string>
+    <string name="btn_getSpace">获得SD卡剩余空间</string>
+    <string name="btn_btn">btn</string>
+    <string name="edit_ed">请输入</string>
+    <string name="btn_sp">使用SP存储</string>
+</resources>

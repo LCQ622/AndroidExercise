@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.mcandroid.book">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".librarian_activity.LibrarianActivity" />
+        <activity android:name=".system_activity.SystemActivity" />
+        <activity android:name=".system_activity.System_add" />
+        <activity android:name=".system_activity.System_all" />
+        <activity android:name=".system_activity.System_lookup" />
+        <activity android:name=".system_activity.System_del" />
+        <activity android:name=".librarian_activity.UserActivity" />
+        <activity android:name=".librarian_activity.StockActivity"></activity>
+    </application>
+
+</manifest>

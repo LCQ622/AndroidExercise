@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test09</string>
+    <string name="TXT">第一种点击事件</string>
+    <string name="one_btn">按钮 1</string>
+    <string name="second_txt">第二种点击事件</string>
+    <string name="third_txt">第三种点击事件</string>
+    <string name="third_btn">按钮3</string>
+    <string name="fourth_txt">第四种点击事件</string>
+    <string name="fourth_btn">按钮4</string>
+    <string name="second_btn">按钮 2</string>
+</resources>

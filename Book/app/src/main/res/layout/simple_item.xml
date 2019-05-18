@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/simple_item_Tiele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/simple_item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simple_item_Tiele"
+
+        android:layout_marginLeft="20dp"
+        android:text="内容"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/simple_item_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simple_item_Tiele"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@id/simple_item_content"
+        android:text="大小"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/simple_item_ISBN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simple_item_Tiele"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@id/simple_item_size"
+        android:text="ISBN"
+        android:textSize="10sp" />
+</RelativeLayout>

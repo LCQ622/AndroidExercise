@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="大圆形进度条" />
+    <!--大圆形进度条-->
+    <ProgressBar
+        android:id="@+id/progress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="小圆形进度条" />
+    <!--小圆形进度条-->
+    <ProgressBar
+        android:id="@+id/progress2"
+        style="?android:progressBarStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="水平进度条" />
+    <!--水平进度条
+    水平进度条是有实时进度值的，
+    可以设置最大进度值:  android:max="100"
+    还有当前进度值:android:progress="70"
+    这里的值是数值。
+    但是这样设置并不能实时的走动
+    -->
+    <ProgressBar
+        android:id="@+id/progress3"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv3"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/size"
+        android:layout_margin="20dp"
+        android:onClick="btn"
+        android:text="启动" />
+
+
+</RelativeLayout>

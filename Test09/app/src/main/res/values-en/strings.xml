@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test09</string>
+    <string name="one_btn">Button 1</string>
+    <string name="TXT">The first click event</string>
+    <string name="second_btn">Button 2</string>
+    <string name="second_txt">Second kinds of click events</string>
+    <string name="third_txt">Third kinds of click events</string>
+    <string name="third_btn">Button 3</string>
+    <string name="fourth_txt">Fourth kinds of click events</string>
+    <string name="fourth_btn">Button 4</string>
+</resources>
